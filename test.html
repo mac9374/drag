@@ -5,10 +5,13 @@
 <title>无标题文档</title>
 <style>
 #test{
-	  width:200px;
-	  height:300px;
+	  width:100px;
+	  height:100px;
 	  background:red;
 	  border:solid 1px blue;
+	  position:absolute;
+	  left:0px;
+	  top:0px;
 	}
 </style>
 <script src="drag.js"></script>
@@ -16,5 +19,8 @@
 
 <body>
 <div id="test"></div>
+<script>
+ drag('test');
+</script>
 </body>
 </html>
